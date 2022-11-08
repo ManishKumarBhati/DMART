@@ -13,16 +13,13 @@ import kotlinx.coroutines.withContext
 import javax.inject.Inject
 
 @HiltViewModel
-class SampleViewModel @Inject constructor(private val repository: Repository) :
-    BaseViewModel() {
+class SampleViewModel @Inject constructor(private val repository: Repository) : BaseViewModel() {
     private val mutableMainState = MutableLiveData<ResponseState<List<ProductResponse>>>()
     fun getData(): MutableLiveData<ResponseState<List<ProductResponse>>> {
 
-        viewModelScope.launch {
-            withContext(Dispatchers.IO) {
-                val data = repository.getData()
-                mutableMainState.postValue( ResponseState.Success(data))
-            }
+        viewModelScope.launch(Dispatchers.IO) {
+            val data = repository.getData()
+            mutableMainState.postValue(ResponseState.Success(data))
         }
         return mutableMainState
     }
