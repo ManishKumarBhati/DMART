@@ -1,0 +1,65 @@
+[{
+  "type": "Banner",
+  "name": "Banner1",
+  "desc": "this is desc",
+  "value": "Rs 23:00",
+  "imageUrl": "https://www.theindianwire.com/wp-content/uploads/2017/06/Flipkart-1.jpg",
+  "items": []
+}, {
+  "type": "Product",
+  "name": "Product1",
+  "desc": "this is desc",
+  "value": "Rs 23:00",
+  "imageUrl": "https://rukminim1.flixcart.com/image/832/832/khkvukw0-0/pen/6/s/c/8901765126245-hauser-original-imafxkck3g75whwf.jpeg?q=70",
+  "items": []
+},
+  {
+    "type": "Category",
+    "name": "",
+    "desc": "",
+    "value": "",
+    "imageUrl": "",
+    "items": [{
+      "name": "test",
+      "desc": "this is desc",
+      "value": "Rs 23:00",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrpc79d1iGAxDr-zheu2jVYwpaj9b97nQD-g&usqp=CAU"
+    }, {
+      "name": "test",
+      "desc": "this is desc",
+      "value": "Rs 23:00",
+      "imageUrl": "https://telecomtalk.info/wp-content/uploads/2016/12/unnamed-3.jpg"
+    }, {
+      "name": "test",
+      "desc": "this is desc",
+      "value": "Rs 23:00",
+      "imageUrl": "https://www.flickonclick.com/wp-content/uploads/2021/06/web-design-01-696x696.jpg"
+    }, {
+      "name": "test",
+      "desc": "this is desc",
+      "value": "Rs 23:00",
+      "imageUrl": "https://blog.insaid.co/wp-content/uploads/2021/07/30-Questions-to-Crack-Flipkart-Product-Manager-Interview-1.png"
+    }, {
+      "name": "test",
+      "desc": "this is desc",
+      "value": "Rs 23:00",
+      "imageUrl": "https://telecomtalk.info/wp-content/uploads/2016/12/unnamed-3.jpg"
+    }]
+  },
+  {
+    "type": "Product",
+    "name": "Product2",
+    "desc": "this is desc",
+    "value": "Rs 23:00",
+    "imageUrl": "https://rukminim1.flixcart.com/image/832/832/kkzrpu80/post-it/k/r/6/multicolor-memo-pad-sticky-notes-400-sheets-5-colors-ofixo-original-imagy7hyh8vqqcnq.jpeg?q=70",
+    "items": []
+  },
+  {
+    "type": "Banner",
+    "name": "Banner2",
+    "desc": "this is desc",
+    "value": "Rs 23:00",
+    "imageUrl": "https://img.freepik.com/free-vector/night-ocean-landscape-full-moon-stars-shine_107791-7397.jpg?w=2000",
+    "items": []
+  }
+]
