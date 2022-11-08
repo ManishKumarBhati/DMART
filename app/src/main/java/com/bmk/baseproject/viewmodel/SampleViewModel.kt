@@ -23,9 +23,4 @@ class SampleViewModel @Inject constructor(private val repository: Repository) : 
         }
         return mutableMainState
     }
-
-
-    override fun onCleared() {
-        TODO("Not yet implemented")
-    }
 }
